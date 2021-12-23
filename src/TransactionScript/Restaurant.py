@@ -3,6 +3,9 @@ from src.TableDataGateway.RestaurantGateway import RestaurantGateway
 
 class Restaurant:
     def __init__(self):
+        self.metro = None
+        self.kitchen = None
+        self.avg_bill = None
         pass
 
     # записываем ресторан в БД
